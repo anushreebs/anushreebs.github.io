@@ -29,5 +29,5 @@ export function EvidenceDisclosure({ title, children, id }: { title: string; chi
 }
 
 export function Walkthrough({ children }: { children: ReactNode }) {
-  return <details className="walkthrough"><summary><span><i className="eyebrow">Optional</i> Interview Walkthrough</span><span aria-hidden="true">+</span></summary><div>{children}</div></details>;
+  return <details className="walkthrough"><summary><span>Guided walkthrough</span><span aria-hidden="true">+</span></summary><div>{children}</div></details>;
 }
