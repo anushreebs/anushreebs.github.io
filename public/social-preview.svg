@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Anushree B S — Useful products, thoughtfully built.</title>
+  <desc id="description">Frontend-focused full-stack software engineer building React and TypeScript products, backend-connected data workflows, and carefully scoped AI experiences. Synthetic ResearchFlow interface preview.</desc>
+  <rect width="1200" height="630" fill="#101318"/>
+  <path d="M48 94H1152M48 576H1152" stroke="#343b47"/>
+  <text x="58" y="68" fill="#d7ff63" font-family="monospace" font-size="15" letter-spacing="2">ANUSHREE B S  /  SOFTWARE ENGINEER</text>
+  <text x="58" y="235" fill="#f3f0e8" font-family="Georgia,serif" font-size="76" letter-spacing="-4">Useful products,</text>
+  <text x="58" y="325" fill="#d7ff63" font-family="Georgia,serif" font-style="italic" font-size="82" letter-spacing="-4">thoughtfully built.</text>
+  <text x="62" y="388" fill="#b0b4bf" font-family="monospace" font-size="17">REACT · TYPESCRIPT · BACKEND + DATA · THOUGHTFUL AI</text>
+  <rect x="730" y="408" width="410" height="130" fill="#19202b" stroke="#394556"/>
+  <text x="752" y="440" fill="#f3f0e8" font-family="monospace" font-size="14">RESEARCHFLOW / SYNTHETIC WORKSPACE</text>
+  <path d="M752 458H1118M752 493H1118" stroke="#394556"/>
+  <text x="752" y="481" fill="#b0b4bf" font-family="sans-serif" font-size="16">Validated records</text>
+  <text x="752" y="519" fill="#d7ff63" font-family="sans-serif" font-size="16">Findings stay out of totals until reviewed.</text>
+  <text x="58" y="610" fill="#b0b4bf" font-family="monospace" font-size="14">DALLAS, TX · UNITED STATES</text>
+</svg>
