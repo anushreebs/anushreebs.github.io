@@ -24,23 +24,28 @@ export const experiences = [
 
 export const toolkit = [
   {
-    label: "Professional frontend experience",
-    items: ["React", "TypeScript", "JavaScript", "Redux", "Material UI", "Responsive interfaces", "API integration"],
-    context: "Applied across streaming discovery, enterprise ordering, and healthcare reporting.",
+    label: "Frontend systems",
+    items: ["React", "TypeScript", "JavaScript", "Redux", "Material UI", "Responsive interfaces", "Accessibility", "Interface state"],
+    context: "Professional work across streaming discovery at ZEE, enterprise ordering at Straumann, and healthcare reporting at Virtusa.",
   },
   {
-    label: "Application and data workflows",
-    items: ["Node.js", "REST", "GraphQL", "SQLite", "PostgreSQL-compatible storage", "Validation", "Authorization", "State transitions"],
-    context: "Explored through independent projects connecting interfaces to data and server-enforced rules.",
+    label: "Backend-connected workflows",
+    items: ["Node.js", "REST", "GraphQL", "API integration", "Request and error states", "Validation", "Authorization", "State transitions"],
+    context: "Professional API integration, including GraphQL at ZEE. ResearchFlow project notes describe Node.js validation; the Portal explores GraphQL access requests and server-side authorization.",
   },
   {
-    label: "AI workflow practice",
-    items: ["Evidence review", "Structured suggestions", "Data provenance", "Human-in-the-loop (HITL)", "Uncertainty handling"],
-    context: "Independent project practice in evidence review, structured suggestions, provenance, human approval, and uncertainty handling. The public examples use deterministic behavior; live-model performance has not been evaluated.",
+    label: "Data and workflow systems",
+    items: ["SQLite", "PostgreSQL-compatible storage", "Data traceability", "Audit history", "Report snapshots", "Workflow state modeling"],
+    context: "ResearchFlow project notes describe SQLite, source-row traceability, audit history, and report snapshots. Portal notes describe local PGlite storage and a separate PostgreSQL-compatible deployment option.",
   },
   {
-    label: "Testing",
-    items: ["Jest", "React Testing Library", "Cypress"],
-    context: "Testing practice includes Jest, React Testing Library, and Cypress. This portfolio’s review-state checks use Node’s built-in test runner.",
+    label: "AI product workflows",
+    items: ["Evidence retrieval", "Structured suggestions", "Provenance", "Human-in-the-loop review", "Deterministic fallback", "Uncertainty handling"],
+    context: "Bloom Rescue explores these concepts through a local simulation with fictional data and required human approval. Model behavior has not been independently evaluated.",
+  },
+  {
+    label: "Testing and quality",
+    items: ["Jest", "React Testing Library", "Cypress", "Accessibility validation", "Responsive browser testing", "Performance awareness"],
+    context: "Jest, React Testing Library, and Cypress at Straumann; accessibility and cross-browser usability at Virtusa. Professional work includes frontend performance improvements and regression prevention.",
   },
 ];
