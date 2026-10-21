@@ -1,0 +1,5 @@
+PASS: ResearchFlow controls and content fit 1440, 1024, 768, 390, 320px.
+PASS: Three explanatory states, stable stage height, keyboard selection, source reference, exclusion rule, synthetic reporting total.
+PASS: Architecture deep link opens nested evidence and moves focus.
+PASS: Decision disclosure and reduced-motion stage.
+Captured desktop/mobile showcase and report-state screenshots.
