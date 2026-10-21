@@ -9,14 +9,14 @@ export const experiences = [
   {
     period: "Aug 2023 — Sep 2024",
     company: "Straumann Group",
-    role: "UI Engineer",
+    role: "Software Engineer, React",
     body: "Built React and TypeScript order interfaces with search, filtering, sorting, responsive behavior, and validation. Worked on how operational rules, warnings, and empty states are communicated within the ordering workflow.",
     tags: ["Enterprise workflows", "Forms and validation", "Data presentation", "Responsive interfaces"],
   },
   {
     period: "Nov 2021 — Aug 2023",
     company: "Virtusa",
-    role: "Software Engineer, React",
+    role: "React Engineer, Technology",
     body: "Worked on React healthcare reporting interfaces using Redux, Material UI, and API integration. Implemented reporting interactions and document-export functionality.",
     tags: ["Reporting interfaces", "State management", "API integration", "Document exports"],
   },
@@ -35,12 +35,12 @@ export const toolkit = [
   },
   {
     label: "AI workflow practice",
-    items: ["Evidence retrieval", "Structured suggestions", "Data provenance", "Human-in-the-loop (HITL)", "Deterministic mode", "Uncertainty handling"],
-    context: "AI-assisted development is a tool practice; Bloom explores a separate local simulation. Live-model performance has not been evaluated.",
+    items: ["Evidence review", "Structured suggestions", "Data provenance", "Human-in-the-loop (HITL)", "Uncertainty handling"],
+    context: "Independent project practice in evidence review, structured suggestions, provenance, human approval, and uncertainty handling. The public examples use deterministic behavior; live-model performance has not been evaluated.",
   },
   {
     label: "Testing",
     items: ["Jest", "React Testing Library", "Cypress"],
-    context: "Jest, React Testing Library, and Cypress appear in the résumé. This portfolio’s review-state tests use Node’s built-in test runner.",
+    context: "Testing practice includes Jest, React Testing Library, and Cypress. This portfolio’s review-state checks use Node’s built-in test runner.",
   },
 ];

@@ -25,7 +25,7 @@ export function StateTrack({ title, items }: { title: string; items: string[] })
 }
 
 export function EvidenceDisclosure({ title, children, id }: { title: string; children: ReactNode; id?: string }) {
-  return <details className="interview-panel" id={id}><summary>{title}<span aria-hidden="true">+</span></summary><div>{children}</div></details>;
+  return <details className="interview-panel" id={id} tabIndex={-1}><summary>{title}<span aria-hidden="true">+</span></summary><div>{children}</div></details>;
 }
 
 export function Walkthrough({ children }: { children: ReactNode }) {
