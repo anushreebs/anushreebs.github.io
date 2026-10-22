@@ -1,0 +1,12 @@
+PASS 320px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 390px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 768px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 1024px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 1440px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS rendered contrast .work-preview h3: 16.21:1
+PASS rendered contrast .preview-problem: 8.72:1
+PASS rendered contrast .preview-contribution: 8.72:1
+PASS rendered contrast .preview-decision: 8.72:1
+PASS rendered contrast .preview-link: 11.62:1
+PASS rendered contrast .experience-evidence p: 8.72:1
+PASS: preview links/focus, existing anchor targets, optional exercise deep links, and reduced motion. Six Phase 4B screenshots captured.

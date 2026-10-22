@@ -1,0 +1,54 @@
+ M docs/CODEX_HANDOFF.md
+ M docs/visual-review/researchflow-desktop-report.png
+ M docs/visual-review/researchflow-desktop.png
+ M docs/visual-review/researchflow-mobile-report.png
+ M docs/visual-review/researchflow-mobile.png
+ M src/App.tsx
+ M src/CollaboratorCase.tsx
+ M src/InterfaceStudy.tsx
+ M src/ProjectShowcases.tsx
+ M src/ResearchFlowCase.tsx
+ M src/content.ts
+ M src/main.tsx
+ M tests/browser-foundation.smoke.mjs
+ M tests/collaborator.browser.mjs
+?? docs/superpowers/plans/2026-10-21-hiring-impact-refinement.md
+?? docs/visual-review/bloom-checks.txt
+?? docs/visual-review/bloom-desktop-approved.png
+?? docs/visual-review/bloom-desktop-showcase.png
+?? docs/visual-review/bloom-desktop-undo.png
+?? docs/visual-review/bloom-desktop-validation.png
+?? docs/visual-review/bloom-mobile-approved.png
+?? docs/visual-review/bloom-mobile-showcase.png
+?? docs/visual-review/bloom-mobile-undo.png
+?? docs/visual-review/bloom-mobile-validation.png
+?? docs/visual-review/bloom-review.md
+?? docs/visual-review/collaborator-checks.txt
+?? docs/visual-review/collaborator-desktop-approved.png
+?? docs/visual-review/collaborator-desktop-rejected.png
+?? docs/visual-review/collaborator-desktop.png
+?? docs/visual-review/collaborator-mobile-approved.png
+?? docs/visual-review/collaborator-mobile-rejected.png
+?? docs/visual-review/collaborator-mobile.png
+?? docs/visual-review/collaborator-review.md
+?? docs/visual-review/phase-4b-checks.txt
+?? docs/visual-review/phase-4b-desktop-experience-to-cases.png
+?? docs/visual-review/phase-4b-desktop-experience.png
+?? docs/visual-review/phase-4b-desktop-hero-preview.png
+?? docs/visual-review/phase-4b-git-status.txt
+?? docs/visual-review/phase-4b-mobile-experience-to-cases.png
+?? docs/visual-review/phase-4b-mobile-experience.png
+?? docs/visual-review/phase-4b-mobile-hero-preview.png
+?? docs/visual-review/phase-4b-review.md
+?? docs/visual-review/phase-4b-verification.txt
+?? src/BloomCase.tsx
+?? src/BloomEvidence.tsx
+?? src/BloomWorkbench.tsx
+?? src/CollaboratorEvidence.tsx
+?? src/SelectedWorkPreview.tsx
+?? src/bloom-workbench.css
+?? src/bloom.css
+?? src/collaborator.css
+?? src/phase4b.css
+?? tests/bloom.browser.mjs
+?? tests/phase4b.browser.mjs

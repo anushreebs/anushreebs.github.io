@@ -1,0 +1,10 @@
+PASS: Source disclosure, invalid date and override validation, error focus, approval, rejection, undo, reset, edit invalidation, activity feedback, independent original simulation, and no API requests.
+PASS: Keyboard approval, decision/recovery focus, evidence deep link, reduced motion, responsive widths 1440/1024/768/390/320 and 44px controls. Expanded evidence fits 320px.
+.bw-evidence .bw-label rendered contrast: 5.97:1
+.bw-source-note p rendered contrast: 5.31:1
+.bw-evidence blockquote rendered contrast: 10.15:1
+.bw-help rendered contrast: 9.32:1
+.bw-feedback rendered contrast: 11.18:1
+.bw-approve rendered contrast: 8.43:1
+.bw-history li rendered contrast: 11.12:1
+Eight desktop/mobile showcase, validation, approved, and undo screenshots captured.

@@ -1,0 +1,4 @@
+PASS: clipboard failure visible to sighted and screen-reader users; mailto fallback preserved; success copies expected email. Failure-state layout checked at 320/390/768/1024/1440px.
+PASS asset /Anushree-BS-Resume-Software-Engineer.pdf: HTTP 200, 85449 bytes.
+PASS asset /favicon.svg: HTTP 200, 267 bytes.
+PASS asset /social-preview.svg: HTTP 200, 1716 bytes.

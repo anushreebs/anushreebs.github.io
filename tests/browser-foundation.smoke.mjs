@@ -8,9 +8,13 @@ import { join } from "node:path";
 import { setTimeout as delay } from "node:timers/promises";
 import { checkResearchFlow } from "./researchflow.browser.mjs";
 import { checkCollaborator } from "./collaborator.browser.mjs";
+import { checkBloom } from "./bloom.browser.mjs";
+import { checkStandaloneFocus, checkPhase4B } from "./phase4b.browser.mjs";
+import { checkPhase5 } from "./phase5.browser.mjs";
 
 const profile = await mkdtemp(join(tmpdir(), "portfolio-browser-"));
 const chrome = spawn(process.env.CHROME_PATH ?? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", [
+  ...(process.env.PORTFOLIO_SINGLE_PROCESS === "1" ? ["--single-process"] : []),
   "--headless=new", "--remote-debugging-port=0", `--user-data-dir=${profile}`,
   "--no-first-run", "--no-default-browser-check", "about:blank",
 ], { stdio: "ignore" });
@@ -25,6 +29,7 @@ const results = [];
 async function until(fn, message) {
   for (let attempt = 0; attempt < 200; attempt++) {
     if (launchError) throw launchError;
+    if (chrome.exitCode !== null || chrome.signalCode !== null) throw new Error(`Browser exited before readiness: code=${chrome.exitCode}, signal=${chrome.signalCode}`);
     const result = await fn();
     if (result) return result;
     await delay(50);
@@ -129,6 +134,8 @@ try {
   assert.equal(await evaluate("document.querySelector('.study-amount').textContent"), "$6,171.25");
   results.push("ResearchFlow study: keyboard selection, pressed states, unchanged total, live feedback, stable panel height, and rendered finding-emphasis color passed.");
 
+  await checkStandaloneFocus({ page, evaluate, click, key, settle, viewport });
+
   await click(".review-actions button:first-child");
   assert.equal(await evaluate("document.querySelector('.record-line strong').textContent"), "2027-09-30");
   await click(".undo-button");
@@ -172,6 +179,9 @@ try {
   }
   await checkResearchFlow({ page, evaluate, click, key, settle, viewport });
   await checkCollaborator({ page, evaluate, click, key, settle, viewport });
+  await checkBloom({ page, evaluate, click, key, settle, viewport });
+  await checkPhase4B({ page, evaluate, click, key, settle, viewport });
+  await checkPhase5({ page, evaluate, click, key, settle, viewport });
   assert.deepEqual(errors, [], "Browser runtime errors");
   results.push("No uncaught browser runtime errors. Desktop/mobile screenshots captured with reduced motion enabled.");
   console.log(results.join("\n"));
@@ -179,6 +189,6 @@ try {
 } finally {
   socket?.close();
   chrome.kill();
-  await new Promise(resolve => { if (chrome.exitCode !== null) resolve(); else chrome.once("exit", resolve); });
+  await new Promise(resolve => { if (chrome.exitCode !== null || chrome.signalCode !== null) resolve(); else chrome.once("exit", resolve); });
   await rm(profile, { recursive: true, force: true, maxRetries: 3 });
 }

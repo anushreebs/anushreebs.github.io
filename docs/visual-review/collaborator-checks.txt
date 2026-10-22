@@ -1,0 +1,12 @@
+PASS: Portal states and controls fit 1440, 1024, 768, 390, 320px; expanded evidence fits down to 320px.
+PASS: Distinct pending, approved, rejected explanations; keyboard activation, selected state, visible focus and live outcome.
+PASS: Architecture and role-boundary links open evidence and move focus; decision disclosure works.
+PASS: No actual download link or API requests from reconstruction controls.
+PASS: Reduced-motion selector transitions disabled.
+.cp-ledger .cp-label rendered contrast: 6.08:1
+.cp-ledger h5 rendered contrast: 10.67:1
+.cp-view-only rendered contrast: 5.52:1
+.cp-consequence p rendered contrast: 11.66:1
+.cp-dossier .cp-label rendered contrast: 9.85:1
+[data-portal-state][aria-pressed=true] rendered contrast: 8.53:1
+Captured desktop/mobile showcase, approved and rejected states.

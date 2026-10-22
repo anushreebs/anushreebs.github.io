@@ -1,0 +1,46 @@
+
+> developer-portfolio@1.0.0 test:browser
+> node tests/browser-foundation.smoke.mjs
+
+ResearchFlow browser checks passed; four screenshots captured.
+Collaborator Portal checks passed; six screenshots captured.
+Bloom browser checks passed; eight screenshots captured.
+PASS 320px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 390px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 768px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 1024px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS 1440px: approved section order, no overflow, three preview links within viewport and >=44px.
+PASS rendered contrast .work-preview h3: 16.21:1
+PASS rendered contrast .preview-problem: 8.72:1
+PASS rendered contrast .preview-contribution: 8.72:1
+PASS rendered contrast .preview-decision: 8.72:1
+PASS rendered contrast .preview-link: 11.62:1
+PASS rendered contrast .experience-evidence p: 8.72:1
+PASS: preview links/focus, existing anchor targets, optional exercise deep links, and reduced motion. Six Phase 4B screenshots captured.
+PASS: clipboard failure visible to sighted and screen-reader users; mailto fallback preserved; success copies expected email. Failure-state layout checked at 320/390/768/1024/1440px.
+PASS asset /Anushree-BS-Resume-Software-Engineer.pdf: HTTP 200, 85449 bytes.
+PASS asset /favicon.svg: HTTP 200, 267 bytes.
+PASS asset /social-preview.svg: HTTP 200, 1716 bytes.
+Responsive width 1920: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 1440: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 1024: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 800: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 768: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 720: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 390: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+Responsive width 320: no page overflow; all visible header/hero controls at least 44px high and inside viewport.
+720 CSS px reflow checked (equivalent layout width to 1440px at 200% zoom; not a browser-zoom UI test).
+Mobile menu: keyboard entry, visible focus, Escape return, closed-link exclusion, and section-focus handoff passed.
+ResearchFlow study: keyboard selection, pressed states, unchanged total, live feedback, stable panel height, and rendered finding-emphasis color passed.
+Existing review simulation: approve, undo, reject, reset passed in Chrome.
+Reduced motion: entrance animation, button transitions, and smooth scroll disabled.
+Skip link keyboard activation passed.
+body contrast: 16.21:1
+secondary contrast: 8.72:1
+accent contrast: 10.53:1
+primary button contrast: 10.33:1
+paper secondary contrast: 5.59:1
+paper text contrast: 11.95:1
+focus on dark contrast: 12.80:1
+focus on paper contrast: 6.32:1
+No uncaught browser runtime errors. Desktop/mobile screenshots captured with reduced motion enabled.

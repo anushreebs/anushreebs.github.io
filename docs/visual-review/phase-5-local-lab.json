@@ -1,0 +1,132 @@
+{
+  "note": "Single observations against local production build; not Lighthouse, field Core Web Vitals or INP. CLS is raw observed layout shifts in a 7-second load window.",
+  "measurements": [
+    {
+      "mode": "Local desktop lab: 1440px, unthrottled",
+      "width": 1440,
+      "ready": "complete",
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 188
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 288
+        }
+      ],
+      "lcpMs": 388,
+      "cls": 0.0032555872260199652,
+      "navigation": [
+        {
+          "ttfb": 11,
+          "domContentLoaded": 203.69999999925494,
+          "load": 203.69999999925494
+        }
+      ],
+      "fonts": "loaded",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:5181/assets/index-8OcRHthG.js",
+          "duration": 7.600000001490116,
+          "bytes": 88745
+        },
+        {
+          "url": "http://127.0.0.1:5181/assets/index-SZz-C8mU.css",
+          "duration": 4.800000000745058,
+          "bytes": 23282
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap",
+          "duration": 142.60000000149012,
+          "bytes": 847
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "mode": "Local mobile lab: 390px, 4x CPU, 150ms latency, 1.6Mbps down / 750kbps up",
+      "width": 390,
+      "ready": "complete",
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 732
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 972
+        }
+      ],
+      "lcpMs": 1236,
+      "cls": 0.001053558292715797,
+      "navigation": [
+        {
+          "ttfb": 2.399999998509884,
+          "domContentLoaded": 911.1000000014901,
+          "load": 911.1000000014901
+        }
+      ],
+      "fonts": "loaded",
+      "resources": [
+        {
+          "url": "http://127.0.0.1:5181/assets/index-SZz-C8mU.css",
+          "duration": 383.5,
+          "bytes": 23282
+        },
+        {
+          "url": "http://127.0.0.1:5181/assets/index-8OcRHthG.js",
+          "duration": 729.3000000007451,
+          "bytes": 88745
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap",
+          "duration": 163.60000000149012,
+          "bytes": 847
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "clipboard": {
+    "button": "Copy email",
+    "status": "Copy is unavailable. Use the email link instead.",
+    "statusClass": "sr-status"
+  },
+  "links": {
+    "duplicateIds": [],
+    "missingHashes": [],
+    "hrefs": [
+      "http://127.0.0.1:5181/#main-content",
+      "http://127.0.0.1:5181/#top",
+      "http://127.0.0.1:5181/#work",
+      "http://127.0.0.1:5181/#experience",
+      "http://127.0.0.1:5181/#about",
+      "http://127.0.0.1:5181/#contact",
+      "http://127.0.0.1:5181/Anushree-BS-Resume-Software-Engineer.pdf",
+      "http://127.0.0.1:5181/#researchflow",
+      "https://github.com/anushreebs",
+      "https://www.linkedin.com/in/anushree-bs/",
+      "http://127.0.0.1:5181/#collaborator",
+      "http://127.0.0.1:5181/#bloom-rescue",
+      "https://researchflow-demo.onrender.com/",
+      "https://researchflow-demo.onrender.com/about",
+      "http://127.0.0.1:5181/#rf-architecture",
+      "http://127.0.0.1:5181/#rf-context",
+      "http://127.0.0.1:5181/#rf-decisions",
+      "http://127.0.0.1:5181/#rf-limits",
+      "http://127.0.0.1:5181/#cp-dossier-title",
+      "http://127.0.0.1:5181/#cp-decisions",
+      "http://127.0.0.1:5181/#portal-architecture",
+      "http://127.0.0.1:5181/#portal-role-boundary",
+      "http://127.0.0.1:5181/#portal-workflow-evidence",
+      "http://127.0.0.1:5181/#portal-limitations",
+      "http://127.0.0.1:5181/#br-workbench",
+      "http://127.0.0.1:5181/#br-decisions",
+      "http://127.0.0.1:5181/#bloom-project-notes",
+      "http://127.0.0.1:5181/#bloom-ai-boundary",
+      "mailto:anushreebs6@gmail.com"
+    ]
+  },
+  "errors": []
+}
